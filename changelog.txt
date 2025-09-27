@@ -1,5 +1,10 @@
 Changes to the notification / detection script
 ==========
+3.3.62 27.09.25
+- updated browser versions
+- used only major version number (28 instead of 28.0.2) for Samsung Internet in order to not notify it (as it only transmits major version numbers). fixes #593
+
+
 3.3.61 31.08.25
 - updated versions
 
