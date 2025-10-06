@@ -6,7 +6,7 @@ var $buo_show = function () {
     if (!op.url) {
         op.url = burl + ((op.l && (op.l + "/")) || "") + "update-browser.html" + (op.test ? "?force_outdated=true" : "") + "#" + op.jsv + ":" + op.pageurl;
     }
-    op.url_permanent_hide=op.url_permanent_hide || (burl + "block-ignore-browser-update-warning.html");
+    op.url_permanent_hide=op.url_permanent_hide || "#"; //(burl + "block-ignore-browser-update-warning.html");
     /*
      if (Math.random()*1000<1 && !op.test && !op.betatest) {
      var i = new Image();
